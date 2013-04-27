@@ -15,6 +15,6 @@ Then(/^I should see the names for all the existing feeds$/) do
     #we could select a css class or html container for the feeds to make it more
     #robust, cf the capybara DSL: https://github.com/jnicklas/capybara, but 
     #the simplest version can be:
-    page.should have_content(existing_feed.name)
+    page.should have_content(existing_feed.name.titleize)
   end
 end
