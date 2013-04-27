@@ -1,4 +1,7 @@
 OpenData::Application.routes.draw do
+  resources :temps
+
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
