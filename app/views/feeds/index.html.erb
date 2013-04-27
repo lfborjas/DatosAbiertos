@@ -2,6 +2,6 @@
 
 <dl>
   <% @feeds.each do |feed| %>
-    <dt><%= feed.name.titleize %></dt><dd><%= feed.description %></dd>
+    <dt><%= feed.name %></dt><dd><%= feed.description %></dd>
   <%end%>
 </dl>
